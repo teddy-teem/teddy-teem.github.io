@@ -53,6 +53,11 @@
         //console.log(name, phone, email, message);
          window.open(`mailto:jahidrsn@gmail.com?subject=${subjectInput.value}&body=${Body}`);
     });
+    var floatingMessageBtn = document.getElementById("skip");
+    var floatingMessageArea = document.getElementById("floatingMessage");
+    floatingMessageBtn.addEventListener("click", ()=>{
+        floatingMessageArea.style.visibility="hidden";
+    })
 
 
 
