@@ -198,16 +198,14 @@ main{
         .headingText{
             p{
                 color: rgb(201, 199, 199);
-                font-size: 24px; 
-                
-
+                font-size: 24px;    
             }
            
             h1{
                 color: white;
                 font-size: 48px;
                letter-spacing: 5px; 
-               animation: animText 3s 1;              
+               animation: animText 1s 1;              
             } 
             @keyframes animText {
                 0%{
@@ -235,6 +233,56 @@ main{
                     box-shadow: 0 5px 50px hotpink;
                     transition: all 1s ease-in-out;
                 }           
+            }
+        }
+        .headingText2 {
+            visibility: visible;
+            position: fixed;
+            z-index:200;
+            margin-left: -40%;
+            margin-right: 26%;
+            height: 70vh;
+            width: 95vw;
+            opacity: 0.9;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-self: center;
+            align-items: center;
+            align-content: center;
+            border-radius: 5px;
+            margin-left: 25%;
+            background-color: rgb(26, 81, 26); 
+            @keyframes animText {
+                0%{
+                    font-size: 24px;
+                }
+                100%{
+                    font-size: 48px;
+                }
+            }  
+            button{
+                opacity: 1;
+                background-color:rgb(13, 74, 56);
+                border: 1px solid hotpink;
+                padding: 20px;
+                margin: 10px;
+                color: hotpink;
+                font-size: 20px;
+                width: 40%;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 800;
+                border-radius: 5px;
+                &:hover{
+                    cursor: pointer;
+                    border: 1px solid hotpink;
+                    text-shadow: 0 5px 25px hotpink;
+                    box-shadow: 0 5px 50px hotpink;
+                    transition: all 1s ease-in-out;
+                }
+                a{
+                    color: red;
+                }          
             }
         }
         .headingImg{
@@ -275,7 +323,7 @@ main{
                 h1{
                     font-size: 25px;
                    letter-spacing: 5px; 
-                   animation: animText 3s 1;              
+                   animation: animText 1s 1;              
                 } 
                 @keyframes animText {
                     0%{
@@ -292,6 +340,41 @@ main{
                     color: hotpink;
                     font-size: 15px;
                     width: 100px;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: 800;
+                    border-radius: 5px;
+                    &:hover{
+                        cursor: pointer;
+                        border: 1px solid hotpink;
+                        text-shadow: 0 5px 15px hotpink;
+                        box-shadow: 0 5px 20px hotpink;
+                        transition: all 1s ease-in-out;
+                    }           
+                }  
+            }
+            .headingText2{
+                margin-right: 0%;
+                margin-bottom: 80%;
+                margin-left: 0%;
+                flex-direction: column;
+                justify-content: center;
+                @keyframes animText {
+                    0%{
+                        font-size: 10px;
+                    }
+                    100%{
+                        font-size: 25px;
+                    }
+                }
+                button{
+                    // opacity: 1;
+                    background-color: #2a122a;
+                    border: 1px solid hotpink;
+                    padding: 5px;
+                    color: hotpink;
+                    margin-top: 40px;
+                    font-size: 15px;
+                    width: 70%;
                     font-family: 'Courier New', Courier, monospace;
                     font-weight: 800;
                     border-radius: 5px;

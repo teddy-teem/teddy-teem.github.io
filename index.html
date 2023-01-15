@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jahid's</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./deprecated.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <ul id="bg-image"></ul>
 
+        <ul id="bg-image"></ul>
         <header>
             <div class="item">
                 <a href="#home"><span>Home</span></a>
@@ -37,10 +38,20 @@
             </div>
         </header>
         <main>
-
-
             <!-- Home  -->
             <section class="homeSection" id="home">
+                <div id="floatingMessage" class="headingText2">
+                    <button id="redirect">
+                        <a style="color: hotpink;" href="https://vuteem.vercel.app/">
+                            CLICK HERE TO VISIT MY NEW PORTAL
+                        </a>
+
+                    </button>
+                    <button id="skip">
+                        PREVIEW THIS PORTAL
+
+                    </button>
+                </div>
                 <div class="headingText">
                     <p>Hi, This is</p>
                     <h1>Jahid Hasan</h1>
@@ -48,7 +59,8 @@
                         <p id="disignation"> Passionate Worker</p>
                     </div>
                     <a href="#Objective"><button>More</button></a><a href="#s">
-                        <a href="https://drive.google.com/file/d/1oa9KFgI3f7_3mJJKtIY2EPES1yacHdul/view?usp=sharing" target="_blank"><button>Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1oa9KFgI3f7_3mJJKtIY2EPES1yacHdul/view?usp=sharing"
+                            target="_blank"><button>Resume</button></a>
                 </div>
                 <div class="headingImg">
                     <img src="./jahid.png" alt="Jahids" height="200px" width="200px">
@@ -206,9 +218,12 @@
                                 </p>
                                 <p>
                                     <span>
-                                        <b>Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> I have learned Full stack Web Development from this 
-                                        course, I have learned HTML5, CSS3, SCSS, JavaScript, jquery, NodeJs, KoaJs, MongoDb, and so many Technology from this course. 
-                                        they have taken an exam after completing the course, and i have successfully passed the exam. 
+                                        <b>Description &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> I have learned
+                                        Full stack Web Development from this
+                                        course, I have learned HTML5, CSS3, SCSS, JavaScript, jquery, NodeJs, KoaJs,
+                                        MongoDb, and so many Technology from this course.
+                                        they have taken an exam after completing the course, and i have successfully
+                                        passed the exam.
                                     </span>
                                 </p>
                                 <a href="./certificates/Achievement/sdmgap19.jpg" target="_blank"><button>Download
@@ -309,8 +324,10 @@
                                 <div class="projectsItem">
                                     <h3>My Own Portfolio</h3>
                                     <p>
-                                        This is my own Portfolio designed by me. all it's theme and arcitecture are designed by myself. This is done under a career development training program hosted by a company named 
-                                       <b>Spring Rain IT</b> . 
+                                        This is my own Portfolio designed by me. all it's theme and arcitecture are
+                                        designed by myself. This is done under a career development training program
+                                        hosted by a company named
+                                        <b>Spring Rain IT</b> .
                                     </p>
                                     <p>
                                         <b>Used Technology:</b> HTML5, SCSS, JavaScript, jquery
@@ -536,11 +553,10 @@
                             </div>
                             <div class="awards-item">
                                 <h3>Participation of ACM ICPC 2020</h3>
-                                <p>Dhaka Regional, Dhaka University  Hosted</p>
+                                <p>Dhaka Regional, Dhaka University Hosted</p>
                                 <p>2 problems Solved</p>
                                 <p>Honorable Mentioned</p>
-                                <a href=""
-                                    target="_blank"><button>Certificate</button></a>
+                                <a href="" target="_blank"><button>Certificate</button></a>
                             </div>
                             <div class="awards-item">
                                 <h3>Participation of ACM ICPC 2019</h3>
@@ -549,10 +565,10 @@
                                 <p>Honorable Mentioned</p>
                                 <!-- <a href="./certificates/Achievement/icpc2019.pdf"
                                     target="_blank"> -->
-                                    <button onclick="Alart()">Certificate</button>
+                                <button onclick="Alart()">Certificate</button>
                                 <!-- </a> -->
                                 <script>
-                                    function Alart(){
+                                    function Alart() {
                                         alert("Will be published soon!");
                                     }
                                 </script>
@@ -778,58 +794,58 @@
 
 
             <!-- Contact  -->
-            
-                <section class="contact" id="Contact">
-                    <h1>CONTACT</h1>
-                    <div class="inp">
-                        <form>
-                            <input type="text" class="name" id="name" placeholder="NAME" value="" required>
-                            <input type="email" class="email" id="email" placeholder="EMAIL" value="" required>
-                            <input type="text" class="subject" id="subject" placeholder="SUBJECT" value="" required>
-                            <textarea name="message" id="message" class="message" placeholder="MESSAGE" cols="30"
-                                rows="10" required></textarea>
-                            <button id="sendMail">SEND</button>
-                        </form>
-                        <div class="details">
-                            <div class="address">
-                                <div>
-                                    <img src="./Icon/location.png" alt="">
-                                    Baliadighi, Sonamasjid. Shibganj, Chapainawabgnaj, Rajshahi
-                                </div>
 
-                                <div>
-                                    <img src="./Icon/coronavirus.png" alt="">
-                                    Bangladesh
-                                </div>
-
-                                <div>
-                                    <img src="./Icon/smartphone.png" alt="">
-                                    +880 1521476209, +880 1767363427
-                                </div>
-
-                                <div>
-                                    <img src="./Icon/email.png" alt="">
-                                    jahidhsn56@gmail.com
-                                </div>
-                                <hr>
+            <section class="contact" id="Contact">
+                <h1>CONTACT</h1>
+                <div class="inp">
+                    <form>
+                        <input type="text" class="name" id="name" placeholder="NAME" value="" required>
+                        <input type="email" class="email" id="email" placeholder="EMAIL" value="" required>
+                        <input type="text" class="subject" id="subject" placeholder="SUBJECT" value="" required>
+                        <textarea name="message" id="message" class="message" placeholder="MESSAGE" cols="30" rows="10"
+                            required></textarea>
+                        <button id="sendMail">SEND</button>
+                    </form>
+                    <div class="details">
+                        <div class="address">
+                            <div>
+                                <img src="./Icon/location.png" alt="">
+                                Baliadighi, Sonamasjid. Shibganj, Chapainawabgnaj, Rajshahi
                             </div>
 
-                            <div class="social">
-                                <a href="https://github.com/teddy-teem" target="_blank"><img src="./Icon/github.png"
-                                        alt="github"></a>
-                                <a href="https://www.linkedin.com/in/jahid-hasan-6018ba155/" target="_blank"> <img
-                                        src="./Icon/linkedin.png" alt="LinkedIn"></a>
-                                <a href="https://www.instagram.com/jahidr_/" target="_blank"><img
-                                        src="./Icon/instagram.png" alt="instagram"></a>
-                                <a href="https://www.facebook.com/jahidhsn56" target="_blank"><img
-                                        src="./Icon/facebook.png" alt="Facebook"></a>
+                            <div>
+                                <img src="./Icon/coronavirus.png" alt="">
+                                Bangladesh
                             </div>
 
+                            <div>
+                                <img src="./Icon/smartphone.png" alt="">
+                                +880 1521476209, +880 1767363427
+                            </div>
+
+                            <div>
+                                <img src="./Icon/email.png" alt="">
+                                jahidhsn56@gmail.com
+                            </div>
+                            <hr>
                         </div>
+
+                        <div class="social">
+                            <a href="https://github.com/teddy-teem" target="_blank"><img src="./Icon/github.png"
+                                    alt="github"></a>
+                            <a href="https://www.linkedin.com/in/jahid-hasan-6018ba155/" target="_blank"> <img
+                                    src="./Icon/linkedin.png" alt="LinkedIn"></a>
+                            <a href="https://www.instagram.com/jahidr_/" target="_blank"><img src="./Icon/instagram.png"
+                                    alt="instagram"></a>
+                            <a href="https://www.facebook.com/jahidhsn56" target="_blank"><img src="./Icon/facebook.png"
+                                    alt="Facebook"></a>
+                        </div>
+
                     </div>
-                    <a href="#bye"><button class="down">&#8595;</button></a>
-                </section>
-           
+                </div>
+                <a href="#bye"><button class="down">&#8595;</button></a>
+            </section>
+
 
 
             <!-- Bye Message  -->
